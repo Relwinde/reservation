@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function (){
+    return view('pages.register');
 });
+
+Route::post('/', ['before'=>'csrf',function (){
+    dd($_POST);
+}])->name('register');
