@@ -1,4 +1,4 @@
-<h1>Bonjour {{$data['userName']}}</h1>
+<h1>Bonjour {{$email_data['userName']}}</h1>
 <h2>Bienvenue sur la platform de la Fabrique Simplon</h2>
 
 <p>Afin de que votre compte soit soumis à la validation 
