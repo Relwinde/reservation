@@ -3,4 +3,4 @@
 
 <p>Afin de que votre compte soit soumis à la validation 
 vous devez d'abord vérifier votre addresse mail.</p>
-<p>cliquez sur <a href="/verify?code{{$data['verificationCode']}">ce lien</a> pour le faire</p>
+<p>cliquez sur <a href="/verify?code{{$data['verificationCode']}}">ce lien</a> pour le faire</p>
