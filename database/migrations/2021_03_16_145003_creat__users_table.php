@@ -19,6 +19,8 @@ class CreatUsersTable extends Migration
             $table->string('lastName');
             $table->string('email')->unique();
             $table->string('userRole');
+            $table->string('verificationCode');
+            $table->integer('verified');
             $table->string('userStatut');
             $table->string('password');
         });

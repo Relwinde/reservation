@@ -13,10 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function (){
-    return view('pages.register');
-});
+Route::get('/', 'UserExistsController@checkUsers');
 
-Route::post('/', ['before'=>'csrf',function (){
-    dd($_POST);
-}])->name('register');
+Route::post('/','UserRegisterController@registController')->name('register-control');
+
+Route::get('/sign up', function (){
+    return view('pages.register');
+})->name('register-page');
+
+Route::get('/sign in', function (){
+    return view('connect');
+})->name('connect-page');
+
+Route::get('/verify', 'MailVerifyer@codeVerify');
