@@ -26,3 +26,9 @@ Route::get('/sign in', function (){
 })->name('connect-page');
 
 Route::get('/verify', 'MailVerifyer@codeVerify');
+
+Route::post('/login', 'UserLoginController@loginControl')->name('login-control');
+
+Route::get('/home', function (){
+    return view('pages.home');
+})->name('home-page');

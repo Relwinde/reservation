@@ -22,7 +22,7 @@ if (isset($default)){
 </div>
 
 <div class="regist">
-<form action="{{route('register-control')}}" method="POST" role="form" class="z-depth-2">
+<form action="{{route('login-control')}}" method="POST" role="form" class="z-depth-2">
        @csrf
         <div class="input-field">
           <input required name="mail" type="email" class="validate">
