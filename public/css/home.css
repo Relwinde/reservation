@@ -1,0 +1,65 @@
+.navBar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 90px;
+     padding: 10px;
+}
+
+.navBar div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.navBar img {
+     width: 60px;
+}
+
+h1,
+h2 {
+     font-size: 25px;
+     margin: 0px;
+     padding: 0px;
+     font-family: "Ubuntu";
+     color: white;
+}
+
+.navBar h2 {
+     margin: 0px 5px 0px 5px;
+}
+
+.memberDiv {
+     margin-top: 25px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.table {
+     width: 40%;
+     min-height: 200px;
+}
+
+.table h4 {
+     background-color: #80c4fb;
+     color: white;
+     font-family: "Ubuntu";
+     font-size: 18px;
+     padding: 20px;
+     margin: 0px;
+}
+
+.table h5 {
+     font-family: "Ubuntu";
+     font-size: 18px;
+     margin: 0px;
+}
+
+.accounts {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+     border-bottom: 1px solid black;
+}

@@ -32,9 +32,9 @@ if (isset($default)){
         <div class="input-field">
           <input required name="pass" type="password" class="validate">
           <label for="pass">Mot de passe</label>
-          <span class="helper-text" data-error="Invalide" data-success="Valide">Entrez un mot de passe</span>
+          <span clwaves-effect waves-lightass="helper-text" data-error="Invalide" data-success="Valide">Entrez un mot de passe</span>
         </div>
-    <button type="submit" class="btn blue waves-effect waves-light">Se connecter</button>
+    <button type="submit" class="btn blue ">Se connecter</button>
 <p>Vous n'avez pas de compte inscrivez-vous <a href="{{route('register-page')}}">ici</a></p>
 </form>
 </div>

@@ -51,7 +51,6 @@ class UserRegisterController extends Controller
 
                     MailController::sendVerificationEmail($userName, $user->email, $user->verificationCode);
 
-
                     $default = 'Votre compte a été créé avec succès, veillez consulter votre boite Email afin de confirmer la création de votre compte';
                     return view('pages.registered', ['default'=>$default]);
                     }
