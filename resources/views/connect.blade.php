@@ -37,7 +37,7 @@ if (isset($default)){
     <button type="submit" class="btn blue ">Se connecter</button>
 <p>Vous n'avez pas de compte inscrivez-vous <a href="{{route('register-page')}}">ici</a></p>
 </form>
-</div>
+</div> 
 </div>
     
 

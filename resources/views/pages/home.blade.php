@@ -9,11 +9,15 @@
     <title>Home</title>
 </head>
 <body>
-    <?php
-if(isset($_GET)){
-}
 
-?>
+
+    <?php
+            $userInfos = Session::get('firstName');
+
+            echo $userInfos;
+    ?>
+
+
 
 <div class="navBar blue lighten-2 z-depth-2">
     <img src="{{url ('images/index.png')}}" alt="" id="logo">

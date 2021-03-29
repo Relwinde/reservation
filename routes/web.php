@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Contracts\Session\Session;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,6 +30,6 @@ Route::get('/verify', 'MailVerifyer@codeVerify');
 
 Route::post('/login', 'UserLoginController@loginControl')->name('login-control');
 
-Route::get('/home', function (){
+Route::get('home', function (){
     return view('pages.home');
 })->name('home-page');

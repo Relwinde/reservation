@@ -23,6 +23,7 @@ class UserRegisterController extends Controller
 
     public function registController ()
     {
+        
         if($this->mailExistsControll($_POST['mail'])>0)
         {
             $default = 'le mail existe déjà';
